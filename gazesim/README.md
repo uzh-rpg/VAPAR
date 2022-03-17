@@ -2,6 +2,11 @@
 
 This repository contains code used for my Master's thesis (which turned into [a paper](https://doi.org/10.1371/journal.pone.0264471)), specifically for training models to predict human visual attention from gaze data of human pilots flying drone racing tracks. It is designed to function with an earlier version of the [Eye Gaze Drone Racing Dataset](https://osf.io/gvdse/), some of which has been replicated with the old structure in the [published dataset for the paper](https://osf.io/uabx4/).
 
+
+
+| [MPC FPV visualisation](flightmare/media/mpc.gif) | [Image-based model visualisation](flightmare/media/images.gif) | ![Feature-track-based model visualisation](flightmare/media/feature-tracks.gif) | ![Attention-encoder-feature-based model visualisation](flightmare/media/encoder-features.gif) |
+
+
 The main use of the code in the context of the paper is however to be able to load trained models for attention prediction. These predictions are then used in for the end-to-end drone racing controller models described in the paper ([code here](https://github.com/swengeler/flightmare)).
 
 Thus, no detailed instructions will be given for the use of the code for its original purpose. The relevant parts are mostly the installation of the Python library for use with the main code repository and the replication of the results from the paper regarding attention prediction. The latter is described in the wiki of the [dataset](). The installation of this Python package simply requires installing the dependencies (using either the `environment.yml` in this repo or that in the [main repo](https://github.com/swengeler/flightmare)), and then running:
