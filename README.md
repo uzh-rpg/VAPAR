@@ -1,6 +1,6 @@
-# VAPAR
+# VAPAR - Visual Attention Prediction for Autonomous drone Racing
 
-**VAPAR** is a flight trajectory and RGB camera dataset in autonomous drone racing scenarios available on [OSF](https://osf.io/uabx4/).
+This repository contains companion code for the **VAPAR** dataset, which is a flight trajectory and RGB camera dataset in autonomous drone racing scenarios available on [OSF](https://osf.io/uabx4/).
 
 
 ![Attention-encoder-feature-based model visualisation](flightmare/media/encoder-features.gif) ![Feature-track-based model visualisation](flightmare/media/feature-tracks.gif) 
