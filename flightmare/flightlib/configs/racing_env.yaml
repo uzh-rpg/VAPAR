@@ -1,0 +1,62 @@
+quadrotor_env:
+   camera: no
+   sim_dt: 0.02 
+   max_t: 5.0
+   add_camera: yes
+
+quadrotor_dynamics:
+  # mass: 0.73
+  mass: 1.0
+  arm_l: 0.17
+  motor_omega_min: 150.0 # motor rpm min
+  motor_omega_max: 3000.0 # motor rpm max
+  motor_tau: 0.0001 # motor step response
+  thrust_map: [1.3298253500372892e-06, 0.0038360810526746033, -1.7689986848125325]
+  kappa: 0.016 # rotor drag coeff
+  omega_max: [6.0, 6.0, 6.0]  # body rate constraint (x, y, z)
+
+camera:
+  height: 600
+  width: 800
+  fov: 80.0
+
+track:
+  positions: [
+    [  -1.3,   1.3, 2.1 ],
+    [ -18.0,  10.0, 2.1 ],
+    [ -25.0,   0.0, 2.1 ],
+    [ -18.0, -10.0, 2.1 ],
+    [  -1.3,  -1.3, 2.1 ],
+    [   1.3,   1.3, 2.1 ],
+    [  18.0,  10.0, 2.1 ],
+    [  25.0,   0.0, 2.1 ],
+    [  18.0, -10.0, 2.1 ],
+    [   1.3,  -1.3, 2.1 ],
+  ]
+  orientations: [ # order: X, Y, Z, W
+    [ 0.0, 0.0, -0.92387953919290640, -0.38268341623423280 ],
+    [ 0.0, 0.0, -0.92387953919290640,  0.38268341623423263 ],
+    [ 0.0, 0.0,  0.70710678118654750, -0.70710678118654760 ],
+    [ 0.0, 0.0,  0.38268341623423263, -0.92387953919290640 ],
+    [ 0.0, 0.0, -0.38268341623423263, -0.92387953919290640 ],
+    [ 0.0, 0.0, -0.38268341623423263, -0.92387953919290640 ],
+    [ 0.0, 0.0,  0.38268341623423263, -0.92387953919290640 ],
+    [ 0.0, 0.0,  0.70710678118654750, -0.70710678118654760 ],
+    [ 0.0, 0.0, -0.92387953919290640,  0.38268341623423263 ],
+    [ 0.0, 0.0, -0.92387953919290600, -0.38268341623423300 ],
+  ]
+  # TODO: probably add info about the "format" of at least the orientation, because right now it
+  #  is hard-coded to be rotated by -90° (because for some reason this has to be done in Flightmare
+  #  coming from the original data, but just for the gates...)
+  types: [
+    "rpg_gate",
+    "rpg_gate",
+    "rpg_gate",
+    "rpg_gate",
+    "rpg_gate",
+    "rpg_gate",
+    "rpg_gate",
+    "rpg_gate",
+    "rpg_gate",
+    "rpg_gate",
+  ]

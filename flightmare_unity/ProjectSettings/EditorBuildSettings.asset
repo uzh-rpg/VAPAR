@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Top_Level_Scene.unity
+    guid: aa6701e43f70033439ff5bf0756ab604
+  - enabled: 1
+    path: Assets/Environments/Industrial/Scenes/DemoScene.unity
+    guid: 03818a84e6e20aeec9ccdc69b66daf58
+  - enabled: 1
+    path: Assets/Environments/Arena/Scene/Stadium.unity
+    guid: 9a6fe79b7875c3c42a4e8a387e92ae71
+  - enabled: 1
+    path: Assets/Environments/Empty/Scenes/Empty.unity
+    guid: d46f66a954880d531b2cbdf2c744fd57
+  - enabled: 1
+    path: Assets/Environments/Liftoff/Scenes/Liftoff.unity
+    guid: f78ccc127cc6eb81a9af058957e7e4cb
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  m_configObjects: {}

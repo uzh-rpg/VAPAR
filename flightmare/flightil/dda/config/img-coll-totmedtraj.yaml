@@ -1,0 +1,71 @@
+
+log_dir: "results/img-coll-totmedtraj"
+quad_name: "hummingbird"
+env_config: "racing_env"
+verbose: False
+seq_len: 8 # History Length. When increasing to more than one, the model becomes machine dependent due to data saving latency.
+checkpoint:
+  # Put to true and add a path for loading a ckpt
+  resume_training: False
+  resume_file: ""
+data_generation:
+  max_rollouts: 150
+  train_every_n_rollouts: 30
+  double_th_every_n_rollouts: 30
+train:
+  gpu: 0
+  max_training_epochs: 20
+  max_allowed_error: 3.0 # Collision rollouts are eliminated from the training
+  exclude_collision_rollouts: True # collisions explicitly recorded
+  min_number_fts: 40 # Number of feature tracks per image
+  batch_size: 4
+  learning_rate: 0.0003
+  summary_freq: 400
+  train_dir: "data/img-coll-totmedtraj/train" # Where data will be generated and where the network will train
+  val_dir: "data/img-coll-totmedtraj/test" # Validation Data, change to a new data folder!
+  save_every_n_epochs: 5
+  use_imu: True
+  use_raw_imu_data: False
+  use_fts_tracks: False
+  use_images: True
+  use_pos: False
+  use_activation: False
+  imu_no_rot: False
+  imu_no_vels: False
+  no_ref: False
+  attention_fts_type: "none"  # choose from "none", "decoder_fts", "encoder_fts", "map_tracks", "gaze_tracks"
+  attention_model_path: ["/home/simon/dda-inputs/attention_model_0/model/attention_model_0.pt",
+                         "/home/simon/dda-inputs/attention_model_1/model/attention_model_1.pt"]
+  attention_record_all_features: False
+  attention_branching: False
+  attention_branching_threshold: 25  # angle in degrees
+  attention_masking: False
+  gate_direction_branching: False
+  gate_direction_branching_threshold: 15  # angle in degrees
+  gate_direction_start_gate: 9
+  save_at_net_frequency: True
+  shallow_control_module: False
+  mpc_time_horizon: 2.0
+  mpc_time_step: 0.1
+test_time:
+  test_every_n_rollouts: 30
+  execute_nw_predictions: True
+  # Dagger constants and random controller constants for exploration
+  fallback_threshold_rates: 1.0
+  rand_thrust_mag: 6
+  rand_rate_mag: 3.5
+  rand_controller_prob: 0.05
+simulation:
+  flightmare_pub_port: 10253
+  flightmare_sub_port: 10254
+  disconnect_when_training: False
+  base_frequency: 100
+  image_frequency: 15
+  ref_frequency: 50
+  command_frequency: 25
+  expert_command_frequency: 20
+  start_buffer: 2.0
+  max_time: null  # flat medium: 15.2, wave medium: 16.9, flat fast: 12.4 (not sure this is even used right now)
+  # trajectory_path: "/home/simon/dda-inputs/trajectory_s016_r05_flat_li01_buffer20.csv"
+  trajectory_path: "/home/simon/dda-inputs/mtt_total_median/flat/train"
+  return_extra_info: False

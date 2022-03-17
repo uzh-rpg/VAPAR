@@ -1,0 +1,36 @@
+# Python
+dist
+*.egg-info
+*.so
+__pycache__
+
+
+# Gitignore
+
+# VScode
+.vscode/
+.vscode/*
+**/.vscode/*
+!.vscode/extensions.json
+
+# General
+_build/
+.sass-cache
+_posts
+_site
+
+# Flightmare
+flightros
+
+# test_mpc_env.*
+
+# include new files
+# !flightlib/configs
+# !flightlib/include/flightlib/envs
+# !./flightlib/src/envs
+# !flightlib/src/wrapper
+
+# PyCharm
+.idea
+/analysis/process/
+/analysis/performance/

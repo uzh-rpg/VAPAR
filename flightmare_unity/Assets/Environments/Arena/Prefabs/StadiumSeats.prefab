@@ -1,0 +1,1476 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5483146956981307640
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1228188101232127949}
+  m_Layer: 0
+  m_Name: StadiumSeats
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1228188101232127949
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5483146956981307640}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2894925779258293875}
+  - {fileID: 2076170322364364129}
+  - {fileID: 6394882267512339384}
+  - {fileID: 675035688256479938}
+  - {fileID: 7104249357086976982}
+  - {fileID: 4570379579333842005}
+  - {fileID: 4612423626940311688}
+  - {fileID: 2825554907418975288}
+  - {fileID: 3000865115722377474}
+  - {fileID: 2090199878724507740}
+  - {fileID: 7300582072296372965}
+  - {fileID: 3546188416782278874}
+  - {fileID: 5840481314501678327}
+  - {fileID: 3645858584863686940}
+  - {fileID: 8674858722670648306}
+  - {fileID: 6966152389778835752}
+  - {fileID: 7613044790733948658}
+  - {fileID: 9021673153098988740}
+  - {fileID: 7673514596574456911}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &521886979059646677
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1228188101232127949}
+    m_Modifications:
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.723
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7627526720191596926, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_Name
+      value: StadiumSeats 1 (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 35a625b27074b0049836337a85feb009, type: 3}
+--- !u!4 &6394882267512339384 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+    type: 3}
+  m_PrefabInstance: {fileID: 521886979059646677}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1048419748626902938
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1228188101232127949}
+    m_Modifications:
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.341
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7627526720191596926, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_Name
+      value: StadiumSeats 1 (12)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 35a625b27074b0049836337a85feb009, type: 3}
+--- !u!4 &5840481314501678327 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+    type: 3}
+  m_PrefabInstance: {fileID: 1048419748626902938}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2270847901521515493
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1228188101232127949}
+    m_Modifications:
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.172
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7627526720191596926, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_Name
+      value: StadiumSeats 1 (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 35a625b27074b0049836337a85feb009, type: 3}
+--- !u!4 &4612423626940311688 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+    type: 3}
+  m_PrefabInstance: {fileID: 2270847901521515493}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2500158686691870633
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1228188101232127949}
+    m_Modifications:
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.513
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7627526720191596926, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_Name
+      value: StadiumSeats 1 (17)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 35a625b27074b0049836337a85feb009, type: 3}
+--- !u!4 &9021673153098988740 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+    type: 3}
+  m_PrefabInstance: {fileID: 2500158686691870633}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2873992515831160991
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1228188101232127949}
+    m_Modifications:
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.065
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7627526720191596926, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_Name
+      value: StadiumSeats 1 (14)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 35a625b27074b0049836337a85feb009, type: 3}
+--- !u!4 &8674858722670648306 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+    type: 3}
+  m_PrefabInstance: {fileID: 2873992515831160991}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3890263616428742434
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1228188101232127949}
+    m_Modifications:
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.513
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7627526720191596926, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_Name
+      value: StadiumSeats 1 (18)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 35a625b27074b0049836337a85feb009, type: 3}
+--- !u!4 &7673514596574456911 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+    type: 3}
+  m_PrefabInstance: {fileID: 3890263616428742434}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3902304333077757343
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1228188101232127949}
+    m_Modifications:
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.7891
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7627526720191596926, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_Name
+      value: StadiumSeats 1 (16)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 35a625b27074b0049836337a85feb009, type: 3}
+--- !u!4 &7613044790733948658 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+    type: 3}
+  m_PrefabInstance: {fileID: 3902304333077757343}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4238399955180159368
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1228188101232127949}
+    m_Modifications:
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.617
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7627526720191596926, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_Name
+      value: StadiumSeats 1 (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 35a625b27074b0049836337a85feb009, type: 3}
+--- !u!4 &7300582072296372965 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+    type: 3}
+  m_PrefabInstance: {fileID: 4238399955180159368}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4401828681529659579
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1228188101232127949}
+    m_Modifications:
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.448
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7627526720191596926, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_Name
+      value: StadiumSeats 1 (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 35a625b27074b0049836337a85feb009, type: 3}
+--- !u!4 &7104249357086976982 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+    type: 3}
+  m_PrefabInstance: {fileID: 4401828681529659579}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4552449055921631813
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1228188101232127949}
+    m_Modifications:
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.7891
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7627526720191596926, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_Name
+      value: StadiumSeats 1 (15)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 35a625b27074b0049836337a85feb009, type: 3}
+--- !u!4 &6966152389778835752 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+    type: 3}
+  m_PrefabInstance: {fileID: 4552449055921631813}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4792062328784069425
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1228188101232127949}
+    m_Modifications:
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.617
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7627526720191596926, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_Name
+      value: StadiumSeats 1 (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 35a625b27074b0049836337a85feb009, type: 3}
+--- !u!4 &2090199878724507740 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+    type: 3}
+  m_PrefabInstance: {fileID: 4792062328784069425}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4850723227216416268
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1228188101232127949}
+    m_Modifications:
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.723
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7627526720191596926, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_Name
+      value: StadiumSeats 1 (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 35a625b27074b0049836337a85feb009, type: 3}
+--- !u!4 &2076170322364364129 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+    type: 3}
+  m_PrefabInstance: {fileID: 4850723227216416268}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6259730367649536431
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1228188101232127949}
+    m_Modifications:
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.448
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7627526720191596926, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_Name
+      value: StadiumSeats 1 (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 35a625b27074b0049836337a85feb009, type: 3}
+--- !u!4 &675035688256479938 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+    type: 3}
+  m_PrefabInstance: {fileID: 6259730367649536431}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6984083533276933944
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1228188101232127949}
+    m_Modifications:
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.172
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7627526720191596926, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_Name
+      value: StadiumSeats 1 (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 35a625b27074b0049836337a85feb009, type: 3}
+--- !u!4 &4570379579333842005 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+    type: 3}
+  m_PrefabInstance: {fileID: 6984083533276933944}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7861459672784386673
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1228188101232127949}
+    m_Modifications:
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.065
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7627526720191596926, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_Name
+      value: StadiumSeats 1 (13)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 35a625b27074b0049836337a85feb009, type: 3}
+--- !u!4 &3645858584863686940 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+    type: 3}
+  m_PrefabInstance: {fileID: 7861459672784386673}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7978027134372109239
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1228188101232127949}
+    m_Modifications:
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.341
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7627526720191596926, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_Name
+      value: StadiumSeats 1 (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 35a625b27074b0049836337a85feb009, type: 3}
+--- !u!4 &3546188416782278874 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+    type: 3}
+  m_PrefabInstance: {fileID: 7978027134372109239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8512933693427978863
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1228188101232127949}
+    m_Modifications:
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.895
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7627526720191596926, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_Name
+      value: StadiumSeats 1 (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 35a625b27074b0049836337a85feb009, type: 3}
+--- !u!4 &3000865115722377474 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+    type: 3}
+  m_PrefabInstance: {fileID: 8512933693427978863}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8623801009678533918
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1228188101232127949}
+    m_Modifications:
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7627526720191596926, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_Name
+      value: StadiumSeats 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 35a625b27074b0049836337a85feb009, type: 3}
+--- !u!4 &2894925779258293875 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+    type: 3}
+  m_PrefabInstance: {fileID: 8623801009678533918}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8698511144426743637
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1228188101232127949}
+    m_Modifications:
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.895
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7627526720191596926, guid: 35a625b27074b0049836337a85feb009,
+        type: 3}
+      propertyPath: m_Name
+      value: StadiumSeats 1 (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 35a625b27074b0049836337a85feb009, type: 3}
+--- !u!4 &2825554907418975288 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6881837760563706733, guid: 35a625b27074b0049836337a85feb009,
+    type: 3}
+  m_PrefabInstance: {fileID: 8698511144426743637}
+  m_PrefabAsset: {fileID: 0}

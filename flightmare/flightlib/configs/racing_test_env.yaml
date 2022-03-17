@@ -1,0 +1,25 @@
+racing_test_env:
+   sim_dt: 0.02
+   max_t: 5.0
+
+quadrotor_dynamics:
+  mass: 0.73
+  arm_l: 0.17
+  motor_omega_min: 150.0 # motor rpm min
+  motor_omega_max: 3000.0 # motor rpm max
+  motor_tau: 0.0001 # motor step response
+  thrust_map: [1.3298253500372892e-06, 0.0038360810526746033, -1.7689986848125325]
+  kappa: 0.016 # rotor drag coeff
+  omega_max: [6.0, 6.0, 6.0]  # body rate constraint (x, y, z)
+
+# for testing with a single gate:
+gate_position:
+  x: 0.0  # "rightward" axis from default view
+  y: 5.0  # "forward" axis from default view
+  z: 2.5  # "upward" axis from default view => apparently 2.5 is what it needs to be placed on the floor (in the warehouse anyway)
+
+gate_orientation:
+  w: 0.9238795  # if this is 1.0 and all other 0.0 we have the "default position" with the front of the gate facing the camera (in the default view)
+  x: 0.0
+  y: 0.0
+  z: 0.3826834
