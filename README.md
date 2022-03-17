@@ -3,8 +3,7 @@
 **VAPAR** is a flight trajectory and RGB camera dataset in autonomous drone racing scenarios available on [OSF](https://osf.io/uabx4/).
 
 
-| ![Feature-track-based model visualisation](flightmare/media/feature-tracks.gif) | ![Attention-encoder-feature-based model visualisation](flightmare/media/encoder-features.gif) |
-
+![Attention-encoder-feature-based model visualisation](flightmare/media/encoder-features.gif) ![Feature-track-based model visualisation](flightmare/media/feature-tracks.gif) 
 
 If you use the code or data in an academic context, please cite the following work:
 
